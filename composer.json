@@ -2,6 +2,7 @@
   "name": "wertyzp/mapped-object",
   "description": "PHP Mapped Object, used as base for typed json objects",
   "minimum-stability": "dev",
+  "license": ["MIT"],
   "config": {
     "preferred-install": "dist",
     "sort-packages": true,
