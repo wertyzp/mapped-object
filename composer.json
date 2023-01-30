@@ -1,0 +1,24 @@
+{
+  "name": "wertyzp/mapped-object",
+  "description": "PHP Mapped Object, used as base for typed json objects",
+  "minimum-stability": "dev",
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.3.26"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Werty\\Mapping\\": "src/"
+    }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": ">=v2.19.3"
+  },
+  "scripts": {
+    "php-cs-fixer": "vendor/bin/php-cs-fixer"
+  }
+}
